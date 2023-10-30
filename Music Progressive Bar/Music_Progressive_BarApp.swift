@@ -13,7 +13,9 @@ struct Music_Progressive_BarApp: App {
    
     var body: some Scene {
         WindowGroup {
-            ProgressiveView()
+            
+            ProgressMusicBarView()
+            //HomeView()
         }
     }
 }

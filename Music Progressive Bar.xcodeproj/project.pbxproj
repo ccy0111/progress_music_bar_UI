@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E58C9D02AE5F72800D7B061 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58C9CF2AE5F72800D7B061 /* Extension.swift */; };
 		5E7C03582ADD62AE00AF50E4 /* ImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C03572ADD62AE00AF50E4 /* ImageEditor.swift */; };
 		5E824E162ADCF07400F2BDEC /* Music_Progressive_BarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E824E152ADCF07400F2BDEC /* Music_Progressive_BarApp.swift */; };
 		5E824E1A2ADCF07600F2BDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E824E192ADCF07600F2BDEC /* Assets.xcassets */; };
@@ -14,10 +15,16 @@
 		5E824E272ADCF07600F2BDEC /* Music_Progressive_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E824E262ADCF07600F2BDEC /* Music_Progressive_BarTests.swift */; };
 		5E824E312ADCF07600F2BDEC /* Music_Progressive_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E824E302ADCF07600F2BDEC /* Music_Progressive_BarUITests.swift */; };
 		5E824E332ADCF07600F2BDEC /* Music_Progressive_BarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E824E322ADCF07600F2BDEC /* Music_Progressive_BarUITestsLaunchTests.swift */; };
-		5E824E432ADD070A00F2BDEC /* ProgressiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E824E422ADD070A00F2BDEC /* ProgressiveView.swift */; };
+		5E824E432ADD070A00F2BDEC /* ProgressMusicBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E824E422ADD070A00F2BDEC /* ProgressMusicBarView.swift */; };
 		5E824E452ADD166800F2BDEC /* ProgressiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E824E442ADD166800F2BDEC /* ProgressiveViewModel.swift */; };
-		5E824E472ADD18C700F2BDEC /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E824E462ADD18C700F2BDEC /* model.swift */; };
 		5E824E492ADD197C00F2BDEC /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E824E482ADD197B00F2BDEC /* Const.swift */; };
+		5EABB5622ADFA5E70013EFB6 /* AngleCacular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABB5612ADFA5E70013EFB6 /* AngleCacular.swift */; };
+		5EABB5662ADFCE940013EFB6 /* fetchAudioMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABB5652ADFCE940013EFB6 /* fetchAudioMetadata.swift */; };
+		5EABB5682ADFD28C0013EFB6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABB5672ADFD28C0013EFB6 /* HomeView.swift */; };
+		5EABB56B2ADFD5BC0013EFB6 /* SwiftUILib.DocumentPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 5EABB56A2ADFD5BC0013EFB6 /* SwiftUILib.DocumentPicker */; };
+		5EE51BEF2AE0AA4B0039D603 /* MusicInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE51BEE2AE0AA4B0039D603 /* MusicInfoModel.swift */; };
+		5EE51BF12AE0AE510039D603 /* stateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE51BF02AE0AE510039D603 /* stateManager.swift */; };
+		5EE51BF32AE0E6850039D603 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE51BF22AE0E6850039D603 /* AudioModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E1EB7B02AE001F300CF7EDF /* Music-Progressive-Bar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Music-Progressive-Bar-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5E58C9CF2AE5F72800D7B061 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		5E7C03572ADD62AE00AF50E4 /* ImageEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditor.swift; sourceTree = "<group>"; };
 		5E824E122ADCF07400F2BDEC /* Music Progressive Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Progressive Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E824E152ADCF07400F2BDEC /* Music_Progressive_BarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_Progressive_BarApp.swift; sourceTree = "<group>"; };
@@ -48,10 +57,15 @@
 		5E824E2C2ADCF07600F2BDEC /* Music Progressive BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music Progressive BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E824E302ADCF07600F2BDEC /* Music_Progressive_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_Progressive_BarUITests.swift; sourceTree = "<group>"; };
 		5E824E322ADCF07600F2BDEC /* Music_Progressive_BarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_Progressive_BarUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5E824E422ADD070A00F2BDEC /* ProgressiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveView.swift; sourceTree = "<group>"; };
+		5E824E422ADD070A00F2BDEC /* ProgressMusicBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressMusicBarView.swift; sourceTree = "<group>"; };
 		5E824E442ADD166800F2BDEC /* ProgressiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveViewModel.swift; sourceTree = "<group>"; };
-		5E824E462ADD18C700F2BDEC /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		5E824E482ADD197B00F2BDEC /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		5EABB5612ADFA5E70013EFB6 /* AngleCacular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleCacular.swift; sourceTree = "<group>"; };
+		5EABB5652ADFCE940013EFB6 /* fetchAudioMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchAudioMetadata.swift; sourceTree = "<group>"; };
+		5EABB5672ADFD28C0013EFB6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5EE51BEE2AE0AA4B0039D603 /* MusicInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInfoModel.swift; sourceTree = "<group>"; };
+		5EE51BF02AE0AE510039D603 /* stateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateManager.swift; sourceTree = "<group>"; };
+		5EE51BF22AE0E6850039D603 /* AudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EABB56B2ADFD5BC0013EFB6 /* SwiftUILib.DocumentPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +117,7 @@
 		5E824E142ADCF07400F2BDEC /* Music Progressive Bar */ = {
 			isa = PBXGroup;
 			children = (
+				5E1EB7B02AE001F300CF7EDF /* Music-Progressive-Bar-Info.plist */,
 				5E824E412ADD06B000F2BDEC /* View */,
 				5E824E402ADD06A600F2BDEC /* View Model */,
 				5E824E3F2ADD069E00F2BDEC /* Model */,
@@ -109,6 +125,7 @@
 				5E824E192ADCF07600F2BDEC /* Assets.xcassets */,
 				5E824E1B2ADCF07600F2BDEC /* Preview Content */,
 				5E824E482ADD197B00F2BDEC /* Const.swift */,
+				5E58C9CF2AE5F72800D7B061 /* Extension.swift */,
 			);
 			path = "Music Progressive Bar";
 			sourceTree = "<group>";
@@ -141,7 +158,11 @@
 		5E824E3F2ADD069E00F2BDEC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5E824E462ADD18C700F2BDEC /* model.swift */,
+				5EABB5612ADFA5E70013EFB6 /* AngleCacular.swift */,
+				5EABB5652ADFCE940013EFB6 /* fetchAudioMetadata.swift */,
+				5E7C03572ADD62AE00AF50E4 /* ImageEditor.swift */,
+				5EE51BEE2AE0AA4B0039D603 /* MusicInfoModel.swift */,
+				5EE51BF22AE0E6850039D603 /* AudioModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -150,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				5E824E442ADD166800F2BDEC /* ProgressiveViewModel.swift */,
-				5E7C03572ADD62AE00AF50E4 /* ImageEditor.swift */,
+				5EE51BF02AE0AE510039D603 /* stateManager.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -158,7 +179,8 @@
 		5E824E412ADD06B000F2BDEC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5E824E422ADD070A00F2BDEC /* ProgressiveView.swift */,
+				5E824E422ADD070A00F2BDEC /* ProgressMusicBarView.swift */,
+				5EABB5672ADFD28C0013EFB6 /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +201,9 @@
 			dependencies = (
 			);
 			name = "Music Progressive Bar";
+			packageProductDependencies = (
+				5EABB56A2ADFD5BC0013EFB6 /* SwiftUILib.DocumentPicker */,
+			);
 			productName = "Music Progressive Bar";
 			productReference = 5E824E122ADCF07400F2BDEC /* Music Progressive Bar.app */;
 			productType = "com.apple.product-type.application";
@@ -251,6 +276,9 @@
 				Base,
 			);
 			mainGroup = 5E824E092ADCF07400F2BDEC;
+			packageReferences = (
+				5EABB5692ADFD5BC0013EFB6 /* XCRemoteSwiftPackageReference "document-picker" */,
+			);
 			productRefGroup = 5E824E132ADCF07400F2BDEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -294,11 +322,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E7C03582ADD62AE00AF50E4 /* ImageEditor.swift in Sources */,
-				5E824E472ADD18C700F2BDEC /* model.swift in Sources */,
+				5EE51BF12AE0AE510039D603 /* stateManager.swift in Sources */,
+				5EABB5662ADFCE940013EFB6 /* fetchAudioMetadata.swift in Sources */,
+				5E58C9D02AE5F72800D7B061 /* Extension.swift in Sources */,
+				5EABB5682ADFD28C0013EFB6 /* HomeView.swift in Sources */,
 				5E824E162ADCF07400F2BDEC /* Music_Progressive_BarApp.swift in Sources */,
+				5EE51BEF2AE0AA4B0039D603 /* MusicInfoModel.swift in Sources */,
 				5E824E452ADD166800F2BDEC /* ProgressiveViewModel.swift in Sources */,
-				5E824E432ADD070A00F2BDEC /* ProgressiveView.swift in Sources */,
+				5E824E432ADD070A00F2BDEC /* ProgressMusicBarView.swift in Sources */,
 				5E824E492ADD197C00F2BDEC /* Const.swift in Sources */,
+				5EE51BF32AE0E6850039D603 /* AudioModel.swift in Sources */,
+				5EABB5622ADFA5E70013EFB6 /* AngleCacular.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,12 +499,15 @@
 				DEVELOPMENT_TEAM = 4372Q4V744;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-Progressive-Bar-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "파일 접근 권한이 필요합니다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,9 +515,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "none.Music-Progressive-Bar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -495,6 +535,8 @@
 				DEVELOPMENT_TEAM = 4372Q4V744;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-Progressive-Bar-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "파일 접근 권한이 필요합니다";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -508,9 +550,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "none.Music-Progressive-Bar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -630,6 +675,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EABB5692ADFD5BC0013EFB6 /* XCRemoteSwiftPackageReference "document-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftuilib/document-picker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EABB56A2ADFD5BC0013EFB6 /* SwiftUILib.DocumentPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EABB5692ADFD5BC0013EFB6 /* XCRemoteSwiftPackageReference "document-picker" */;
+			productName = SwiftUILib.DocumentPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E824E0A2ADCF07400F2BDEC /* Project object */;
 }
